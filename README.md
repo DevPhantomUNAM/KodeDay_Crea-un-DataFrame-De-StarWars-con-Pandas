@@ -42,7 +42,7 @@ Fuera de editor
 | `M`	| Convertir celda a un Markadown     |
 | `Enter`	| Entrar en la celda    |
 
-##### Inicio
+#### Inicio
 
 1. Importamos la libreria Pandas 
 
@@ -60,8 +60,8 @@ Fuera de editor
 ```
 print(tabla)
 ```
-y tenemos como resultado
-
+Y tenemos como resultado:
+````
 | number| name	| height	| mass	| hair_color	| skin_color	| eye_color	| birth_year	| gender	| homeworld	| species |
 | ------------- | --------| --------| --------| --------| --------| --------| --------| --------| --------|  --------| 
 |0	|Luke Skywalker	|172.0	|77	|blond	|fair	|blue	|19BBY|	male	|Tatooine	|Human|
@@ -75,3 +75,32 @@ y tenemos como resultado
 |84	|BB8	|NaN	|NaN	|none	|none	|black	|NaN	|none	|NaN	|Droid|
 |85	|Captain Phasma	|NaN	|NaN	|NaN	|NaN	|NaN	|NaN	|female	|NaN	|NaN|
 |86	|Padmé Amidala	|165.0	|45	|brown	|light	|brown	|46BBY	|female	|Naboo	|Huma|
+````
+
+##### Manipular tabla
+
+Para manipular la tabla, podemos utilizar funciones para elegir valores con condiciones, por ejmeplo
+
+````
+tabla.gender == "female"
+````
+
+Lo que hara es traernos los valores de genero donde se cumplan la condicion de si el genero es "female"
+por lo cual nos desplegara lo siguiente: 
+
+````
+
+0     False
+1     False
+2     False
+3     False
+4      True
+      ...  
+82     True
+83    False
+84    False
+85     True
+86     True
+Name: gender, Length: 87, dtype: bool
+
+````
