@@ -62,16 +62,16 @@ print(tabla)
 ```
 y tenemos como resultado
 
-| name	| height	| mass	| hair_color	| skin_color	| eye_color	| birth_year	| gender	| homeworld	| species
+| | name	| height	| mass	| hair_color	| skin_color	| eye_color	| birth_year	| gender	| homeworld	| species
 | ------------- | --------| --------| --------| --------| --------| --------| --------| --------| --------| 
 |0	|Luke Skywalker	|172.0	|77	|blond	fair	|blue	|19BBY|	male	|Tatooine	|Human|
 |1	|C-3PO	|167.0	|75	|NaN	|gold	|yellow	|112BBY	|NaN	|Tatooine	|Droid|
 |2	|R2-D2	|96.0	|32	|NaN	|white, |blue	red	|33BBY	|NaN	|Naboo	|Droid|
 |3	|Darth Vader	|202.0	|136	|none	|white	|yellow	|41.9BBY	|male	|Tatooine	|Human|
 |4	|Leia Organa	|150.0	|49	|brown	|light	|brown	|19BBY	|female	|Alderaan	|Human|
-...	...	...	...	...	...	...	...	...	...	...
-82	Rey	NaN	NaN	brown	light	hazel	NaN	female	NaN	Human
-83	Poe Dameron	NaN	NaN	brown	light	brown	NaN	male	NaN	Human
-84	BB8	NaN	NaN	none	none	black	NaN	none	NaN	Droid
-85	Captain Phasma	NaN	NaN	NaN	NaN	NaN	NaN	female	NaN	NaN
-86	Padmé Amidala	165.0	45	brown	light	brown	46BBY	female	Naboo	Huma
+|...	|...	|...	|...	|...	|...	|...	|...	|...	|...	|...|
+|82	|Rey	|NaN	|NaN	|brown	|light	|hazel	|NaN	|female	|NaN	|Human|
+|83	|Poe |Dameron	|NaN	|NaN	|brown	|light	|brown	|NaN	|male	|NaN	|Human|
+|84	|BB8	|NaN	|NaN	|none	|none	|black	|NaN	|none	|NaN	|Droid|
+|85	|Captain Phasma	|NaN	|NaN	|NaN	|NaN	|NaN	|NaN	|female	|NaN	|NaN|
+|86	|Padmé Amidala	|165.0	|45	|brown	|light	|brown	|46BBY	|female	|Naboo	|Huma|
