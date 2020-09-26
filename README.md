@@ -64,7 +64,7 @@ y tenemos como resultado
 
 | number| name	| height	| mass	| hair_color	| skin_color	| eye_color	| birth_year	| gender	| homeworld	| species |
 | ------------- | --------| --------| --------| --------| --------| --------| --------| --------| --------|  --------| 
-|0	|Luke Skywalker	|172.0	|77	|blond	fair	|blue	|19BBY|	male	|Tatooine	|Human|
+|0	|Luke Skywalker	|172.0	|77	|blond	|fair	|blue	|19BBY|	male	|Tatooine	|Human|
 |1	|C-3PO	|167.0	|75	|NaN	|gold	|yellow	|112BBY	|NaN	|Tatooine	|Droid|
 |2	|R2-D2	|96.0	|32	|NaN	|white, |blue	red	|33BBY	|NaN	|Naboo	|Droid|
 |3	|Darth Vader	|202.0	|136	|none	|white	|yellow	|41.9BBY	|male	|Tatooine	|Human|
