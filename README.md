@@ -61,7 +61,7 @@ Fuera de editor
 print(tabla)
 ```
 Y tenemos como resultado:
-````
+
 | number| name	| height	| mass	| hair_color	| skin_color	| eye_color	| birth_year	| gender	| homeworld	| species |
 | ------------- | --------| --------| --------| --------| --------| --------| --------| --------| --------|  --------| 
 |0	|Luke Skywalker	|172.0	|77	|blond	|fair	|blue	|19BBY|	male	|Tatooine	|Human|
@@ -75,7 +75,7 @@ Y tenemos como resultado:
 |84	|BB8	|NaN	|NaN	|none	|none	|black	|NaN	|none	|NaN	|Droid|
 |85	|Captain Phasma	|NaN	|NaN	|NaN	|NaN	|NaN	|NaN	|female	|NaN	|NaN|
 |86	|Padmé Amidala	|165.0	|45	|brown	|light	|brown	|46BBY	|female	|Naboo	|Huma|
-````
+
 
 ##### Manipular tabla
 
@@ -89,7 +89,6 @@ Lo que hara es traernos los valores de genero donde se cumplan la condicion de s
 por lo cual nos desplegara lo siguiente: 
 
 ````
-
 0     False
 1     False
 2     False
@@ -102,5 +101,15 @@ por lo cual nos desplegara lo siguiente:
 85     True
 86     True
 Name: gender, Length: 87, dtype: bool
-
 ````
+
+Pero para traer toda la tabla y que nos muestre los datos completos cuando alguien tiene en el genero "female"
+lo podemos hacer con:
+````
+tabla[tabla.gender == "female"]
+````
+| | name|	height|	mass|	hair_color|	skin_color|	eye_color|	birth_year|	gender|	homeworld|	species|
+|4	|Leia Organa	|150.0	|49	|brown	light	|brown	|19BBY	|female	|Alderaan	|Human|
+|6	|Beru Whitesun lars	|165.0	|75	|brown|	light	|blue	|47BBY	|female	|Tatooine	|Human|
+|26	|Mon Mothma	|150.0	|NaN	auburn	|fair	|blue	|48BBY	|female	|Chandrila	|Human|
+|40	|Shmi Skywalker	|163.0	|NaN	|black	|fair	|brown	|72BBY	|female	|Tatooine	|Human|
