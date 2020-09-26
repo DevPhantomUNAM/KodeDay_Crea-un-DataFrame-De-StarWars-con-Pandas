@@ -109,6 +109,7 @@ lo podemos hacer con:
 tabla[tabla.gender == "female"]
 ````
 | | name|	height|	mass|	hair_color|	skin_color|	eye_color|	birth_year|	gender|	homeworld|	species|
+| ------------- | --------| --------| --------| --------| --------| --------| --------| --------| --------|  --------| 
 |4	|Leia Organa	|150.0	|49	|brown	light	|brown	|19BBY	|female	|Alderaan	|Human|
 |6	|Beru Whitesun lars	|165.0	|75	|brown|	light	|blue	|47BBY	|female	|Tatooine	|Human|
 |26	|Mon Mothma	|150.0	|NaN	auburn	|fair	|blue	|48BBY	|female	|Chandrila	|Human|
