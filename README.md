@@ -25,12 +25,26 @@ Despues de unos segundos te abrira automaticamente tu nootebook donde podras tra
 
 ### Notebook
 
-#####Comandos  Básicos de Jypyter
+##### Comandos  Básicos de Jupyter
 
 * Shit + Enter: en una celda: Mandas a compilar la Liena
 * Enter: solo haces un salto de linea
 * ESC: para salir de modo editor de celda
-* Fuera de editor
+
+Fuera de editor
+* A : Crea una celda arriba
+* B : Crea una celda abajo
+* X : Corta una celda
+* M : Convertir celda a un Markadown
+* Enter : Entrar en la celda
+
+##### Inicio
+
+Importamos la libreria Pandas 
+
+```
+import pandas as pd
+```
 
 
 
