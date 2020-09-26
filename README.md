@@ -114,3 +114,4 @@ tabla[tabla.gender == "female"]
 |6	|Beru Whitesun lars	|165.0	|75	|brown|	light	|blue	|47BBY	|female	|Tatooine	|Human|
 |26	|Mon Mothma	|150.0	|NaN	|auburn	|fair	|blue	|48BBY	|female	|Chandrila	|Human|
 |40	|Shmi Skywalker	|163.0	|NaN	|black	|fair	|brown	|72BBY	|female	|Tatooine	|Human|
+|...	|...	|...	|...	|...	|...	|...	|...	|...	|...	|...|
