@@ -2,14 +2,14 @@
 ## Crea un DataFrame De StarWars con Pandas
 
 
-#### Herramientas utilizadas
+### Herramientas utilizadas
 
 * Jupyter Notebook
 * Pandas
-* Matplotly https://matplotlib.org/?fbclid=IwAR2_L-pd4Ycnjd4WZWuP8us9L4Z07844QQ9gjTHtHD7GskLTeCh-c-03hro
-* Data de StarWars https://www.kaggle.com/jsphyg/star-wars?fbclid=IwAR1EOOXpTGlZmdOQRZ5d9KApoldJO2O7eCGlF1dB2Qg6hMDU9qtHA2SMRDU
+* [Matplotly](https://matplotlib.org/?fbclid=IwAR2_L-pd4Ycnjd4WZWuP8us9L4Z07844QQ9gjTHtHD7GskLTeCh-c-03hro)
+* [Data de StarWars](https://www.kaggle.com/jsphyg/star-wars?fbclid=IwAR1EOOXpTGlZmdOQRZ5d9KApoldJO2O7eCGlF1dB2Qg6hMDU9qtHA2SMRDU)
 
-#### Instalación
+### Instalación
 
 Instalaremos Anaconda
 
@@ -19,8 +19,18 @@ Abrir Jupyter despues de la instalación
 
 En nuestra consola escribiremos
 
-`$ npm jupyter notebook`
+`$jupyter notebook`
 
 Despues de unos segundos te abrira automaticamente tu nootebook donde podras trabajar con Python
+
+### Notebook
+
+#####Comandos  Básicos de Jypyter
+
+* Shit + Enter: en una celda: Mandas a compilar la Liena
+* Enter: solo haces un salto de linea
+* ESC: para salir de modo editor de celda
+* Fuera de editor
+
 
 
