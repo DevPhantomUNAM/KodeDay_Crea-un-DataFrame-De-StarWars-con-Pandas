@@ -24,9 +24,12 @@ Despues de unos segundos te abrira automaticamente tu nootebook donde podras tra
 
 ##### Comandos  Básicos de Jupyter
 
-* Shit + Enter: en una celda: Mandas a compilar la Liena
-* Enter: solo haces un salto de linea
-* ESC: para salir de modo editor de celda
+| Combinación	| Description                    |
+| ------------- | ------------------------------ |
+| `Shit + Enter`| Mandas a compilar la linea.	 |
+| `Enter`	| Solo haces un salto de linea     |
+| `ESC`	| Para salir de modo editor de celda     |
+
 
 Fuera de editor
 * A : Crea una celda arriba
