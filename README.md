@@ -12,14 +12,11 @@
 ### Instalación
 
 1.Instalaremos Anaconda
-
-  * Nos dirigimos a la [Home de Anaconda](https://www.anaconda.com/) e iremos a la sección de [Download](https://www.anaconda.com/products/individual) (descargas)
+* Nos dirigimos a la [Home de Anaconda](https://www.anaconda.com/) e iremos a la sección de [Download](https://www.anaconda.com/products/individual) (descargas)
 
 2. Abrir Jupyter despues de la instalación
-
-  * En nuestra consola escribiremos
-
-  `$jupyter notebook`
+* En nuestra consola escribiremos
+`$jupyter notebook`
 
 Despues de unos segundos te abrira automaticamente tu nootebook donde podras trabajar con Python
 
@@ -49,6 +46,5 @@ Fuera de editor
 2. Importamos nuestro CSV que vayamos a utilizar
   ```
   tabla = pd.read_csv('characters.csv')
-
   ```
-  Se asigna a una variable llamada _tabla_ utilizando el metodo *pd.read_csv('')*
+  Se asigna a una variable llamada *tabla* utilizando el metodo **pd.read_csv('')**
