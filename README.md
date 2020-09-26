@@ -11,12 +11,12 @@
 
 ### Instalación
 
-1.Instalaremos Anaconda
-* Nos dirigimos a la [Home de Anaconda](https://www.anaconda.com/) e iremos a la sección de [Download](https://www.anaconda.com/products/individual) (descargas)
++ Instalaremos Anaconda
+  + Nos dirigimos a la [Home de Anaconda](https://www.anaconda.com/) e iremos a la sección de [Download](https://www.anaconda.com/products/individual) (descargas)
 
-2. Abrir Jupyter despues de la instalación
-* En nuestra consola escribiremos
-`$jupyter notebook`
++ Abrir Jupyter despues de la instalación
+  + En nuestra consola escribiremos
+  + `$jupyter notebook`
 
 Despues de unos segundos te abrira automaticamente tu nootebook donde podras trabajar con Python
 
